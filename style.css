@@ -1,0 +1,488 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+header {
+    display: flex;
+    min-height:70px;
+    background-color: whitesmoke;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+
+.empresa{
+    color: rgb(208, 9, 165);
+    font-size: 30px;
+    margin-right: 1200px;
+    top:20px;
+}
+
+nav a {
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right:20px;
+    margin:5px;
+    margin-right:20px;
+    
+   
+
+}
+
+nav a:hover {
+    color:rgb(208, 9, 165);
+}
+
+@media (max-width:800px){
+    header {
+        flex-direction:column;
+    }
+}
+.imagen1 {
+    width:98.5vw;
+    height: 80vh;
+    position: relative;
+    filter: brightness(0.6);
+
+}
+
+.boton {
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    border: 1px transparent;
+    color: white;
+    font-weight: bold;
+    background: rgb(208, 9, 165);
+    text-decoration: none;
+
+}
+
+.caja1 {
+    position: relative;
+}
+
+#titulo {
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    display: flex;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    display: flex;
+    position: absolute;
+    top:-40px;
+}
+
+.seccion2 {
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    margin:0%;
+    padding:0%;
+    
+    
+}
+
+#ada {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 19%;
+    color: rgb(244, 78, 194);
+    margin: 20px;
+    top: -58px;
+    font-size: 22px;
+
+}
+
+h2 {
+    display: flex;
+    position: absolute;
+    top:-40px;
+}
+
+.caja2 {
+    display: flex;
+    position: absolute;
+}
+
+.caja3 {
+    display: flex;
+    position: absolute;
+    right:350px;
+    top:400px;
+    margin:0;
+    padding:0;
+    
+
+}
+.imagen2 {
+    position: absolute;
+    width:35vw;
+    height:35vh;
+    left: 200px;
+    top: 250px;
+    bottom: 200px;
+}
+
+.seccion3 {
+
+    display: flex;
+    background: rgb(29, 25, 25);
+    width:97.5vw;
+    height: 80vh;
+    margin:0;
+    padding:0;
+    left:10px;
+    top: 800px;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+#strong {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 400px;
+    right: 500px;
+    color: white;
+    height: 40vh;
+    font-size: 40px;
+    top: 40px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.front {
+
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 200px;
+    width: 13.1vw;
+    height: 50vh;
+    left: 400px;
+    background: rgb(80, 80, 76);
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.stack {
+
+
+    display: flex;
+    position: absolute;
+    top: 200px;
+    width: 13.1vw;
+    height: 50vh;
+    left: 670px;
+    background: rgb(80, 80, 76);
+    border-radius: 10px;
+    border: none;
+
+}
+
+.python {
+
+
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    right: 60px;
+    top: 200px;
+    width: 13.1vw;
+    height: 50vh;
+    left: 950px;
+    background: rgb(80, 80, 76);
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+.fotito1 {
+
+
+    border-style: solid;
+    border-radius: 4 4 4 4px;
+
+}
+
+.fotito2 {
+
+
+    border-style: solid;
+    border-radius: 4 4 4 4px;
+
+}
+
+.fotito3 {
+
+
+    border-style: solid;
+    border-radius: 4 4 4 4px;
+
+}
+
+.texto1 {
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.texto2 {
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.texto3 {
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#uno {
+
+    color: white;
+    position: relative;
+    display: flex;
+    text-align: start;
+    bottom: -90px;
+    right: 150px;
+
+
+
+}
+
+#dos {
+
+    color: white;
+    position: relative;
+    display: flex;
+    text-align: start;
+    bottom: -90px;
+    right: 150px;
+    font-size: 100%;
+
+}
+
+#tres {
+    color: white;
+    position: relative;
+    display: flex;
+    text-align: start;
+    bottom: -90px;
+    right: 145px;
+}
+
+.boton2 {
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 87%;
+    left: 30%;
+    width:4vw;
+    border: 1px transparent;
+    color: white;
+    font-weight: bold;
+    background: rgb(208, 9, 165);
+    text-decoration: none;
+
+}
+
+#iconos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 860px;
+    right:1200px;
+}
+
+#letras {
+    display: flex;
+    flex-direction:column;
+    position:absolute;
+    bottom: -1800px;
+    left:310px;
+    top: 860px;
+    width: 20vw;
+    height: 10vh;
+
+}
+
+#chica {
+    display: flex;
+    top: 800px;
+    bottom: 300px;
+    position: relative;
+    left:800px;
+    width:46vw;
+    height:46vh;
+
+}
+    
+.final {
+    display: flex;
+    position: absolute;
+    top: 1300px;
+    width:1500px;
+    height:600px;
+    background-color: rgb(223, 6, 139);
+}
+
+#dice {
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 50px;
+    left:500px;
+    color: white;
+}
+
+.boton3 {
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 60%;
+    left:45%;
+    border: 2px solid rgb(86, 2, 40);
+    border-radius: 3px 3px 3px 3px;
+    color: bisque;
+    font-weight: bold;
+    background: rgb(252, 8, 118);
+    text-decoration: none;
+    box-shadow: 0 0 25px rgb(21, 24, 23);
+
+} 
+@media(max-width:480px){
+    header{
+        width:190%;
+        height:150px;
+
+    }
+    nav a{
+        font-size:22px;
+        margin:0px;
+        padding:10px;
+        display: flex;
+        flex-direction:column;
+       
+    }
+    .empresa{
+        margin-right:0;
+        top:50px;
+    }
+    .imagen1{
+        width:190%;
+        height:800px;
+    }
+    #titulo{
+        top:200px;
+        left:60%;
+    }
+    .boton{
+        left:400px;
+        top:110%;
+    }
+    .imagen2{
+        display: none;
+    }
+    .caja3{
+        left:40%;
+        top:400px;
+        position: relative;
+        font-size:30px ;
+    }
+    h2{
+        left:20px;
+        top:-70px;
+    }
+    #ada{
+        left:170px;
+        font-size:40px ;
+        top:-85px;
+    }
+    .seccion3{
+        width:190%;
+        height:100vh;
+        
+    }
+    #strong{
+        right:420px ;
+    }
+    .front{
+        
+        left:80px;
+        width:42vw;
+    }
+    .stack{
+        left:300px;
+        width:42vw ;
+    }
+    .python{
+        left:520px;
+        width:42vw;
+    }
+    .boton2{
+        top:300px;
+        left:90px;
+        width:60px;
+    }
+    #iconos{
+        right:600px;   
+
+    }
+    #letras{
+        left:350px;
+        top:850px;
+        flex-direction:column;
+        font-size:16px;
+    }
+   
+    #chica{
+        display: none;
+    }
+    .final{
+        width:100%;
+    }
+    #dice{
+        left:160px;
+    }
+    .boton3{
+        left:32%;
+    }
+}
+
+
+
+
